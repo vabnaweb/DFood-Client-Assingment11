@@ -1,0 +1,11 @@
+.color-set{
+  background-image:linear-gradient(red,white) ;
+}
+
+
+.box{
+   
+    height:200px ;
+    width: 400px;
+    color: red;
+}

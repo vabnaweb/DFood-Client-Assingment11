@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Pizza",
+    "description": "The pizza toppings are fresh mozzarella, tomatoes, basil leaves, oregano, and olive oil. Since Neapolitan pizza is thin, it isn't designed to handle the weight of too many toppings.",
+    "img": "https://st.depositphotos.com/1003814/5052/i/950/depositphotos_50523105-stock-photo-pizza-with-tomatoes.jpg",
+    "price": "780"
+  },
+  {
+    "name": "Burger",
+    "description": "A hamburger (or burger for short) is a food, typically considered a sandwich, consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun.",
+    "img": "https://media.istockphoto.com/photos/delicious-homemade-hamburger-and-french-fries-picture-id1254672762?b=1&k=20&m=1254672762&s=170667a&w=0&h=nKrG40G2jj9O8wzJ8wDD2zmUKNp00mcdVWK_f_zixug=",
+    "price": "350"
+  },
+  {
+    "name": "Grill Chicken With Naan Roti",
+    "description": "There are different ways of grilling chicken and there are many variations of spices that are used. Naan Roti is an oven-baked leavened flatbread—the perfect food with chicken.",
+    "img": "https://image.shutterstock.com/z/stock-photo-smoky-bbq-chicken-with-naan-and-salad-platter-1368155624.jpg",
+    "price": "560"
+  },
+  {
+    "name": "Beef Birani",
+    "description": " The main ingredients are rice and marinated meat cooked in lots of spices, giving it its special taste. The spices are nutmeg, mace, pepper, cloves, cardamom, cinnamon, bay leaves, coriander, mint, ginger, onion, tomatoes, green chilies, and garlic. It is sometimes served with a boiled egg and salad.",
+    "img": "https://www.masala.tv/wp-content/uploads/2020/01/beef-biryaniI-1024x576.jpg",
+    "price": "350"
+  },
+  {
+    "name": "Steak",
+    "description": " It is a delicious appetizer, soft and succulent and seasoned with ginger, garlic, green chili pepper, powdered chili, and other spices.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSgxoKJcbsZ9-Uu934R9-SaY4hBjUVXd_oGG33H3U3bmgZin1RsJhFzgdGpyQeUaZp6Jw&usqp=CAU",
+    "price": "1200"
+  },
+  {
+    "name": "Haleem",
+    "description": "Haleem is a high-calorie dish, providing protein from the meat and fiber and carbohydrates from the combinations of grains and pulses.It can be served with mint, lemon juice, coriander leaves, fried onions, ginger root, and green chilies.",
+    "img": "https://i.ndtvimg.com/i/2016-06/haleem_625x350_71466578197.jpg",
+    "price": "150"
+  }
+]
