@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 
 const ManageAllOrder = (props) => {
-const{firstName,userName,Adress,Quantity,_id}=props.allorder;
+const{firstName, status,userName,Adress,Quantity,_id}=props.allorder;
     
     const [order, setOrder] = useState([]);
     
@@ -36,6 +36,31 @@ const{firstName,userName,Adress,Quantity,_id}=props.allorder;
             })
         }
     }
+
+    const handleApproved = (e) =>{
+        const url = `https://aqueous-springs-02220.herokuapp.com/myorders/${_id}`;
+        fetch(url, {
+            method:"PUT",
+            headers:{
+                "content-type":"application/json"
+            },
+            body: JSON.stringify(order)
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data.modifiedCount > 0) {
+                window.alert("Approved Successfully")
+                window.location.reload(false);
+                
+            }
+        })
+
+    }
+
+
+
+
+
     return (
         
 
@@ -53,6 +78,7 @@ const{firstName,userName,Adress,Quantity,_id}=props.allorder;
         <p>Address:{Adress}</p>
 
         <Button onClick={()=>handleDeleteUser(_id)}>Delete</Button>
+        <Button onClick={handleApproved}>{status}</Button>
             
         </Card.Text>
     </Card.Body>

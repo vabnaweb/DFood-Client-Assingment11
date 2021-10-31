@@ -11,17 +11,17 @@ import Section from '../Section/Section';
 const Home = () => {
     return (
         <div>
-           <div >
+           <div  className=" mb-5 pb-5">
         <Carousel >
-          <Carousel.Item  className="color-set">
+          <Carousel.Item  >
             <img
               className="d-block w-100 "
               src={img1}
               alt="First slide" height="550px"
             />
-            <Carousel.Caption>
-     <div className="box">
-     <h1>Hungry</h1>
+            <Carousel.Caption className="handle-box">
+     <div className="box fw-bolder">
+     <h1 className="fw-bolder">Hungry???</h1>
       <p>Let's find something delicious for you.</p>
      </div>
     </Carousel.Caption>
@@ -33,6 +33,12 @@ const Home = () => {
               src={img2}
               alt="Second slide" height="550px"
             />
+            <Carousel.Caption className="handle-box">
+     <div className="box fw-bolder">
+     <h1 className="fw-bolder">Hungry???</h1>
+      <p>Let's find something delicious for you.</p>
+     </div>
+    </Carousel.Caption>
 
            
           </Carousel.Item>
@@ -42,6 +48,12 @@ const Home = () => {
               src={img3}
               alt="Third slide" height="550px"
             />
+            <Carousel.Caption className="handle-box">
+     <div className="box fw-bolder">
+     <h1 className="fw-bolder">Hungry???</h1>
+      <p>Let's find something delicious for you.</p>
+     </div>
+    </Carousel.Caption>
 
             
           </Carousel.Item>

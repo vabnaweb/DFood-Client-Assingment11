@@ -1,11 +1,13 @@
-.color-set{
-  background-image:linear-gradient(red,white) ;
-}
-
-
 .box{
+ 
+    height:130px ;
    
-    height:200px ;
     width: 400px;
-    color: red;
+    color:black;
+    border-radius:30px ;
+    background-image: linear-gradient(rgb(189, 219, 224),white);
+}
+.handle-box{
+   display: block;
+   margin: auto;
 }

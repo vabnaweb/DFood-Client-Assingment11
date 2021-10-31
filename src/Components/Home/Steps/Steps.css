@@ -1,0 +1,14 @@
+.pic img{
+    width:650px;
+}
+.steps{
+    color:rgb(196, 107, 207)
+}
+.section{
+    background-color: whitesmoke;
+}
+@media only screen and (max-width:720px) {
+   .pic img{
+       width:350px;
+  }    
+}

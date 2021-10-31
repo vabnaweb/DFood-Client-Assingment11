@@ -20,11 +20,14 @@ const PlaceOrder = () => {
     }, [OrderId])
 
     const onSubmit = data => {
+        data.status = 'pending'
         console.log(data)
         axios.post('https://aqueous-springs-02220.herokuapp.com/myorders', data)
+
+       
             .then(res => {
                 if (res.data.insertedId) {
-                    alert('added successfully')
+                  window.alert('added successfully')
                 }
             })
 
@@ -33,7 +36,7 @@ const PlaceOrder = () => {
         <div>
 
 
-<div className="d-flex justify-content-center m-5">
+<div className="d-flex justify-content-center m-5  ">
            <Card className="align-items-start" style={{ width: '40rem' }}>
   <Card.Img variant="top" src={foods.img} />
   <Card.Body>

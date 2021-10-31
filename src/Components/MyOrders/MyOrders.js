@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import MyOrder from '../MyOrder/MyOrder';
 import useAuth from '../../Hooks/useAuth';
+import './MyOrders.css'
 
 const MyOrders = () => {
     const {user} = useAuth()
@@ -18,7 +19,8 @@ const MyOrders = () => {
             })
     }, [])
     return (
-        <div>
+        <div className="design">
+            <h1 className="mt-5 pt-5 fw-bold"> Your Order</h1>
             <div>
                 <Container>
 

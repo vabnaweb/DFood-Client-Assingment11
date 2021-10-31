@@ -11,9 +11,9 @@ const Service = (props) => {
 
     return (
         
-            <div className="grid img d-flex pb-5 rounded-3">
+            <div className="grid img d-flex pb-5 ">
 
-                <Card>
+                <Card className="rounded-5">
                     <Card.Body>
 
                         <Card.Title> <div >
