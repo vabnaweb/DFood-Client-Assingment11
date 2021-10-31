@@ -12,6 +12,10 @@ import Home from './Components/Home/Home/Home';
 
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import PlaceOrder from './Components/Home/PlaceOrder/PlaceOrder';
+import MyOrders from './Components/MyOrders/MyOrders';
+import ManageAllOrders from './Components/ManageAllOrders/ManageAllOrders';
+import AddNewOrder from './Components/AddNewOrder/AddNewOrder';
+
 
 
 function App() {
@@ -27,6 +31,15 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+            <PrivateRoute path="/myorder">
+                  <MyOrders></MyOrders>
+            </PrivateRoute>
+            <PrivateRoute path="/manageallorders">
+              <ManageAllOrders></ManageAllOrders>
+            </PrivateRoute>
+            <PrivateRoute path="/addneworder">
+              <AddNewOrder></AddNewOrder>
+              </PrivateRoute>
 
             <Route path="/login">
               <LogIn></LogIn>
